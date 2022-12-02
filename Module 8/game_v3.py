@@ -29,7 +29,7 @@ def score_game(random_predict):
     for number in random_array:
         count_ls.append(random_predict(number))
     score = int(np.mean(count_ls))
-    print(f"Your algorithm guesses  the  number  for: {score} attempts")
+    print(f"Your  algorithm guesses  the  number  for: {score} attempts")
     return score
     
 score_game(random_predict)
