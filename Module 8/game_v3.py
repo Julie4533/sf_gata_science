@@ -12,7 +12,7 @@ def random_predict(number):
         if number == predict_number:
             break
         elif number > predict_number:#если предполагаемое число меньше загаданного, интервал угадывания начинается уже не с 1,
-            # а c предположенного числа
+            # а c  предположенного числа
             start = predict_number
         elif number < predict_number:
             end = predict_number
